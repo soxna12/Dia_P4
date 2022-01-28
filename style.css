@@ -73,9 +73,9 @@ a:hover {
     background-size: auto!important;
 }
 
-.bg-repeat {
+/*.bg-repeat {
     background: repeat;
-}
+}*/
 
 .bg-t-edge {
     background: top no-repeat;
@@ -92,17 +92,17 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+    /*background: url("img/texture-paper.png");*/
+    /*background-size: 280px 280px;*/
 }
 
 .b-parallax {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
+/*.d-bloc {
+    color: rgba(255, 255, 255, .7;
+}*/
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -327,6 +327,7 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+    /*margin-right: 15px;*/
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -439,6 +440,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 14px;
 }
 
 .mg-lg {
@@ -750,6 +752,7 @@ h4 {
 .portfolio-row {
    /* margin-bottom: 44px;*/
     margin-top: 50px;
+    background-color: bisque;
 }
 
 .avatar {
@@ -771,7 +774,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    /*background-color: #364577;*/
 }
 
 .bgc-atomic-tangerine {
@@ -813,17 +816,18 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
+/*.bg-dots-bg {
     background-image: url("img/dots-bg.png");
-}
+}*/
 
-.bg-lines-h2-bg {
+/*.bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-}
+}*/
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
-    background-image: url(img/la-chouette-agence-banniere.jpg);
+    background-image: url("img/banniere.jpg");
+    height: 450px;
+    width: 100%;
 }
 
 .bg-presentation {
